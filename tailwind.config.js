@@ -1,0 +1,95 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        wine: {
+          50: '#F5E8EB',
+          100: '#E8D1D7',
+          200: '#D4A3AE',
+          300: '#B57B8A',
+          400: '#9C6B7A',
+          500: '#7A2E3A',
+          600: '#6B2733',
+          700: '#5A2029',
+          800: '#4A1A22',
+          900: '#3A1419',
+        },
+        plum: {
+          50: '#F3EDF0',
+          100: '#E6D8DF',
+          200: '#CDB1C0',
+          300: '#B48BA0',
+          400: '#9C6B7A',
+          500: '#8A5A6B',
+          600: '#7A4A5B',
+          700: '#6A3A4B',
+          800: '#5A2A3B',
+          900: '#4A1A2B',
+        },
+        stone: {
+          50: '#F4F3F1',
+          100: '#E8E6E3',
+          200: '#D8D5D1',
+          300: '#C5C2BD',
+          400: '#B0ADA8',
+          500: '#9A9794',
+          600: '#807D7A',
+          700: '#666361',
+          800: '#4D4B49',
+          900: '#3A3836',
+        },
+        charcoal: {
+          50: '#E8E7E9',
+          100: '#D0CFD2',
+          200: '#A8A7AB',
+          300: '#807F84',
+          400: '#58575C',
+          500: '#2B2A2E',
+          600: '#252428',
+          700: '#1F1E22',
+          800: '#19181C',
+          900: '#131215',
+        },
+        rose: {
+          400: '#C4788A',
+          500: '#B0576A',
+          600: '#9A4A5C',
+          700: '#843D4E',
+        },
+        clay: {
+          400: '#B8745A',
+          500: '#A6634A',
+          600: '#90543E',
+        },
+        lavender: {
+          400: '#9D8DB0',
+          500: '#8B7B9C',
+          600: '#7A6A8B',
+        },
+        rosewood: {
+          500: '#6E4550',
+          600: '#5E3A44',
+        },
+      },
+      fontFamily: {
+        serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        DEFAULT: '8px',
+        lg: '12px',
+        md: '8px',
+        sm: '6px',
+      },
+      transitionDuration: {
+        DEFAULT: '150ms',
+      },
+      maxWidth: {
+        content: '1200px',
+      },
+    },
+  },
+  plugins: [],
+};
